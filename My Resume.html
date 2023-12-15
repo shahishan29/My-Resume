@@ -1,0 +1,315 @@
+<!-- i create a resume with the help of Internal css -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ishan's Resume</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color:#47d4d5;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(9, 9, 9, 0.1);
+        }
+
+        h1, h2, h3, h4 {
+            color: #333333;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        hr {
+            margin: 20px 0;
+            border: none;
+            border-top: 2px solid #e0dada;
+        }
+
+        /*This is for Header styles */
+        header h1 {
+            margin-bottom: 5px;
+        }
+
+        header h3 {
+            margin-top: 0;
+            font-weight: normal;
+            color: #110202;
+        }
+
+        /*this is for Contact Information styles */
+        section:nth-child(3) ul {
+            padding-left: 0;
+        }
+
+        section:nth-child(3) li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        section:nth-child(3) li a {
+            color: #08386b;
+            text-decoration: none;
+            margin-left: 5px;
+        }
+
+        /*This is for Education styles */
+        section:nth-child(4) h3,
+        section:nth-child(4) p {
+            margin: 0;
+        }
+
+        section:nth-child(4) h3 {
+            color: #062343;
+        }
+
+        /*This is for Skills styles */
+        section:nth-child(5) ul {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0;
+        }
+
+        section:nth-child(5) li {
+            margin-right: 15px;
+            margin-bottom: 15px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        /*This is for Courses styles */
+        section:nth-child(6) h4,
+        section:nth-child(6) p {
+            margin: 0;
+        }
+
+        section:nth-child(6) h4 {
+            color:#062343;
+        }
+
+        /*This is for Projects styles */
+        section:nth-child(7) h4,
+        section:nth-child(7) p {
+            margin: 0;
+        }
+
+        section:nth-child(7) h4 {
+            color:#062343;
+        }
+
+        /*This is for Languages styles */
+        section:nth-child(8) h2,
+        section:nth-child(8) ul {
+            padding-left: 0;
+        }
+
+        section:nth-child(8) ul li {
+            display: inline-block;
+            margin-right: 15px;
+            margin-bottom: 10px;
+            padding: 8px;
+            background-color: #323d3beb;
+            color: #fff;
+            border-radius: 4px;
+        }
+
+        /*This is for Interest styles */
+        section:nth-child(9) ul {
+            padding-left: 0;
+        }
+
+        section:nth-child(9) li {
+            background-color: #323d3beb;
+            color: #fff;
+            padding: 8px;
+            border-radius: 4px;
+            display: inline-block;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        /*this is for Achievements styles */
+        section:last-child h2,
+        section:last-child ul {
+            margin-left: 20px;
+            list-style: none;
+            padding: 0;
+        }
+
+        section:last-child ul li {
+            position: relative;
+            color: #333;
+            padding-left: 30px;
+            margin-bottom: 8px;
+            line-height: 1.6;
+        }
+
+        section:last-child ul li::before {
+            content: '\2022'; 
+            color: #007BFF;
+            font-weight: bold;
+            font-size: 18px;
+            position: absolute;
+            left: 0;
+            top: 5px;
+        }
+
+        section:last-child ul li span {
+            display: block;
+            color: #777;
+            font-size: 14px;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Ishan Shah</h1>
+        <h3>Student</h3>
+    </header>
+
+    <section>
+        <h2>CAREER OBJECTIVE</h2>
+        <p>My expertise in front-end and back-end technologies, combined with my creative prowess, allows me to
+            craft visually appealing interfaces that prioritize user engagement and satisfaction. I am dedicated to
+            delivering dynamic digital solutions that merge aesthetics with functionality to drive meaningful results.
+        </p>
+    </section>
+
+    <section>
+        <h2>Contact Information</h2>
+        <ul>
+            <li>Email: Shahishan29@gmail.com</li>
+            <li>Phone: 9484430875</li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/ishan-shah-513786283" target="_blank">Linkedin
+                    Profile</a></li>
+            <li>Projects link: <a
+                    href="https://drive.google.com/file/d/1ILWp9VwDgBm880OCO3v1206SeuMSB59k/view?usp=sharing"
+                    target="_blank">My projects</a></li>
+            <li>Address: Ahmedabad, India</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <h3>Bachelor of technology in Computer Engineering</h3>
+        <p>Silver Oak College of Engineering & Technology</p>
+        <p>Currently Pursuing 6th Sem</p>
+        <p>Sep 2021 - Present</p>
+
+        <h3>Higher secondary school certificate</h3>
+        <p>Kadi Serva Vishwavidhyalaya</p>
+        <p>76%</p>
+        <p>January 2019 - July 2021</p>
+
+        <h3>Secondary school certificate</h3>
+        <p>Sheth Shree M.P Kumar Mandir</p>
+        <p>86%</p>
+        <p>2019</p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>UI/UX DESIGN</li>
+            <li>Basic Python</li>
+            <li>C Language</li>
+            <li>Strong Communication</li>
+            <li>Critical Thinking</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Courses</h2>
+        <h4>Web Development Beginners to Expert</h4>
+        <p>2023 - present</p>
+
+        <h4>Google Cloud Career Course, Udemy</h4>
+        <p>2022</p>
+
+        <h4>Python for Beginners</h4>
+        <p>2022</p>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <h4>Matrimony App Design</h4>
+        <p>Self-created a matrimony app (Soulmate Connect) user interface using Figma.</p>
+
+        <h4>Portfolio Website</h4>
+        <p>Self-created a portfolio web using HTML, CSS & Bootstrap.</p>
+
+        <h4>Social Media App Design</h4>
+        <p>Contributed to making Social media app (Chatmate) User interface design using Figma</p>
+
+        <h4>Dating App Design</h4>
+        <p>Self-created a dating app (Wefind) user interface using Figma.</p>
+    </section>
+
+    <section>
+        <h2>Languages</h2>
+        <ul>
+            <li>English</li>
+            <li>Hindi</li>
+            <li>Gujarati</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Interest</h2>
+        <ul>
+            <li class="interest">Cyber Security</li>
+            <li class="interest">Web Developing</li>
+            <li class="interest">UI/UX Designing</li>
+            <li class="interest">Artificial Intelligence</li>
+            <li class="interest">Badminton</li>
+            <li class="interest">Traveling</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Achievements</h2>
+        <ul>
+            <li>
+                District Badminton Player (2019)
+                <span>1st Rank</span>
+            </li>
+            <li>
+                Heritage Sites Speech Competition Winner
+                <span>Won 1st Place</span>
+            </li>
+        </ul>
+    </section>
+
+</body>
+
+</html>
